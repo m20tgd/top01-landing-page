@@ -1,2 +1,2 @@
-# top01-landing-page
+# top02-landing-page
 Second assignment for The Odin Project - CSS and Flexbox
