@@ -3,19 +3,41 @@
 body {
     display: flex;
     flex-direction: column;
+    min-width: 1200px;
     font-family: Roboto, sans-serif;
 }
 
 .header, .first-section {
     background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px 100px 150px;
+    
+}
+
+.logo, .hero-text {
+    color: #f9faf8;
+}
+
+.header a, .hero-subtext, .subscript {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    color: white;
+    background: #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* ---------Header Section--------- */
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 150px;
+    
 }
 
 .header ul {
@@ -27,13 +49,7 @@ body {
 }
 
 .header a {
-    font-size: 18px;
     text-decoration: none;
-    color: #e5e7eb;
-}
-
-.logo, .hero {
-    color: #f9faf8;
 }
 
 .logo {
@@ -43,8 +59,28 @@ body {
 /* --------------First Section----------- */
 
 .first-section {
-    color: #f9faf8;
 }
+
+.hero{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.hero-text, .hero-subtext {
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subscript {
+    font-size: 10px;
+}
+
+
+/* --------------Second Section----------- */
 
 .second-section {
     background: blue;
