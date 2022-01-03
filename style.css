@@ -4,16 +4,20 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 1200px;
+    margin: 0;
     font-family: Roboto, sans-serif;
 }
+
+
 
 .header, .first-section {
     background: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px 100px 150px;
     
 }
+
+/* -------------------Fonts and Colours------------------ */
 
 .logo, .hero-text {
     color: #f9faf8;
@@ -23,6 +27,31 @@ body {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subscript {
+    font-size: 10px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.info-header, .quote-text {
+    font-size: 36px;
+    
+}
+
+.info-header {
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/* ------------------------Multi-Use Button----------------- */
 
 button{
     color: white;
@@ -37,7 +66,7 @@ button{
 /* ---------Header Section--------- */
 
 .header {
-    
+    padding: 10px 150px;
 }
 
 .header ul {
@@ -52,13 +81,12 @@ button{
     text-decoration: none;
 }
 
-.logo {
-    font-size: 24px;
-}
+
 
 /* --------------First Section----------- */
 
 .first-section {
+    padding: 100px 150px;
 }
 
 .hero{
@@ -70,34 +98,58 @@ button{
     margin-bottom: 20px;
 }
 
-.hero-text {
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-.subscript {
-    font-size: 10px;
-}
-
-
 /* --------------Second Section----------- */
 
 .second-section {
-    background: blue;
-    
+    padding: 50px;
 }
+
+.info-header {
+    text-align: center;
+    margin: auto;
+
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-width: 1000px;
+    padding: 50px 0;
+}
+
+.info-card {
+    width: 200px;
+    height: 300px;
+}
+
+.info-card img {
+    width:200px;
+    height: auto;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+/* --------------Third Section------------- */
 
 .third-section {
     background: green;
     
 }
 
+/* ---------------Fourth Section------------- */
+
 .fourth-section {
     background: yellow;
     
 }
 
+/* ---------------Footer-------------------- */
+
 .footer {
     background: orange;
-    
 }
