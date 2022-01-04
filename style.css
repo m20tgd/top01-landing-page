@@ -53,6 +53,11 @@ body {
     color: #1f2937;
 }
 
+.quote-text {
+    color: #5c646f;
+    font-family: sans-serif;
+}
+
 .action-text {
     font-size: 24px;
 }
