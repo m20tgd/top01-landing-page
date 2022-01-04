@@ -17,6 +17,7 @@ body {
     
 }
 
+
 /* -------------------Fonts and Colours------------------ */
 
 .logo, .hero-text {
@@ -37,19 +38,23 @@ body {
     font-size: 10px;
 }
 
-.logo {
+.logo, .quote-author {
     font-size: 24px;
 }
 
 .info-header, .quote-text {
     font-size: 36px;
-    
+    text-align: center;
+    margin: auto;
 }
 
-.info-header {
+.info-header, .quote-author {
     font-weight: bolder;
     color: #1f2937;
 }
+
+
+
 
 /* ------------------------Multi-Use Button----------------- */
 
@@ -104,12 +109,6 @@ button{
     padding: 50px;
 }
 
-.info-header {
-    text-align: center;
-    margin: auto;
-
-}
-
 .info-container {
     display: flex;
     flex-wrap: wrap;
@@ -140,9 +139,21 @@ button{
 
 /* --------------Third Section------------- */
 
+
 .third-section {
-    background: green;
-    
+    background: #e5e7eb;
+    padding: 100px 150px ;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.quote-text {
+    font-weight: 100;
+    font-style: italic;
 }
 
 /* ---------------Fourth Section------------- */
