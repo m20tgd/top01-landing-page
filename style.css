@@ -128,10 +128,14 @@ button{
 .info-card img {
     width:200px;
     height: auto;
-    border-color: blue;
+    border-color: #5c5607;
     border-width: 5px;
     border-radius: 20px;
     border-style: solid;
+}
+
+.card-text {
+    text-align: center;
 }
 
 /* --------------Third Section------------- */
