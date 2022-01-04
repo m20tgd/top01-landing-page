@@ -10,7 +10,7 @@ body {
 
 
 
-.header, .first-section {
+.header, .first-section, .footer {
     background: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
     color: #f9faf8;
 }
 
-.header a, .hero-subtext, .subscript {
+.header a, .hero-subtext, .subscript, .action-subtext, .footer {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -53,8 +53,9 @@ body {
     color: #1f2937;
 }
 
-
-
+.action-text {
+    font-size: 24px;
+}
 
 /* ------------------------Multi-Use Button----------------- */
 
@@ -62,6 +63,7 @@ button{
     color: white;
     background: #3882f6;
     border-radius: 10px;
+    border: none;
     width: 150px;
     height: 45px;
     font-size: 18px;
@@ -85,8 +87,6 @@ button{
 .header a {
     text-decoration: none;
 }
-
-
 
 /* --------------First Section----------- */
 
@@ -159,12 +159,28 @@ button{
 /* ---------------Fourth Section------------- */
 
 .fourth-section {
-    background: yellow;
-    
+    padding: 100px 150px ;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    background: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.action-box button {
+    border-color: #f9faf8;
+    border: solid;
+    border-width: 2px;
 }
 
 /* ---------------Footer-------------------- */
 
 .footer {
-    background: orange;
+    display: flex;
+    justify-content: center;
+    padding: 25px 150px;
 }
